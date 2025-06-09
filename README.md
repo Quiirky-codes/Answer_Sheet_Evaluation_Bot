@@ -153,7 +153,9 @@ The grading approach supports partial credit, alternate phrasings, and prioritiz
 
 # Sample Output
 
-("C:\Users\AMITH\OneDrive\Pictures\Screenshots\Screenshot 2025-06-08 123628.png")
+```
+![Screenshot 2025-06-08 123628](https://github.com/user-attachments/assets/f8076277-e3ab-424c-820b-e2210c9f408a)
+```
 
 The file includes:
 
