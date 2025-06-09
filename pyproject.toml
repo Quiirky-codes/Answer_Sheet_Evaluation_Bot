@@ -1,0 +1,28 @@
+[tool.ruff]
+line-length = 80
+select = ["E", "F", "W", "C90"]
+ignore = ["E501"]
+tab-size = 4
+
+[tool.poetry]
+name = "ans-sheet-evalutation"
+version = "0.1.0"
+description = "Automatic answersheet evaluator"
+authors = ["BhuvanSA <bhuvansaraj2003@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+genai = "^2.1.0"
+pillow = "^10.4.0"
+python-dotenv = "^1.0.1"
+pdf2image = "^1.17.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,1 @@
+pdf2image # requires poppler to be installed (https://github.com/Belval/pdf2image)
