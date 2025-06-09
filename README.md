@@ -48,4 +48,38 @@ This system is designed for academic institutions seeking to enhance grading con
 * Configurable model and prompt architecture.
 
 * Markdown-formatted output for human verification or integration into downstream systems.
+
+# Project Structure
+
+```
+.
+├── main.py              # Script for evaluating a single answer sheet image
+├── PdfToText.py         # Script to extract and evaluate answers from a scanned PDF
+├── prompts.py           # Contains system prompts, model selections, and safety settings
+├── student1.md          # Output file storing extracted answers and feedback
+├── test.md              # Sample test paper with structured questions and diagrams
+├── test2.md             # Additional annotated example
+├── pyproject.toml       # Poetry dependency configuration
+├── poetry.lock          # Dependency lock file
+└── .env                 # Environment file to store API key securely (excluded from version control)
+```
+
+# Installation
+
+This project uses [Poetry](https://python-poetry.org/) for dependency management.
+
+## Step 1: Clone the Repository
+
+```
+git clone https://github.com/Quiirky-codes/Answer_Sheet_Evaluation_Bot.git
+cd answer-sheet-evaluation
+
+```
+
+## Step 2: Install Poetry (if not already installed)
+
+```
+pip install poetry
+```
+
 <!-- poppler is required -->
